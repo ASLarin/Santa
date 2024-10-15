@@ -4,3 +4,4 @@ sqlalchemy
 beautifulsoup4
 requests
 pydantic_settings
+pymorphy3
