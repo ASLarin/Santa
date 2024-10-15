@@ -7,6 +7,10 @@ class Settings(BaseSettings):
     admin_ids: str
     super_user_ids: str
     DATABASE_URL: str
+    POST_DB_HOST: str
+    POST_DB_USER: str
+    POST_DB_PASS: str
+    POST_DB_NAME: str
 
     @property
     def ban_list(self) -> List[int]:
